@@ -1,2 +1,2 @@
 Prefix plugins/PathView/example/
-Plugin PathView inputfile parameters/parameters.pathview.txt outputfile pathview.pdf
+Plugin PathView inputfile parameters.pathview.txt outputfile pathview.pdf

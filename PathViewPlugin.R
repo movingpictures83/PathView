@@ -53,4 +53,6 @@ path.ids.l2 <- substr(path.ids.l, 1, 8)
 pv.out.list.l <- sapply(path.ids.l2[1:3], function(pid) pathview(
                       gene.data = cnts.d, pathway.id = pid,
                       species = "hsa"))
+
+write.csv(cnts.norm, paste(outputfile, "csv", sep="."))
 }
